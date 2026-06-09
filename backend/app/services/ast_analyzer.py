@@ -260,7 +260,6 @@ def _count_returns_shallow(stmts):
                     count += _count_returns_shallow([value])
     return count
 
-
 def detect_too_many_returns(tree, code):
     issues = []
 
